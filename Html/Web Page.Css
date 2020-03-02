@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding:0; 
+}
+#container {
+     width: 1200px;
+    margin: 0 auto;
+     border: 1px solid black;
+     font-family: Arial, verdana, sans-serif;
+}
+    #header{
+        background-color: honeydew;
+        width: 1180px;
+        padding: 10px 10px; 
+        color:rgb(73, 3, 3);
+    }
+    #nav{
+        background-color: orange;
+        width: 1200px;
+        
+    }
+        #nav ul li {
+            list-style:none;
+        }
+         #nav ul li{
+             float:left;
+             width: 240px;
+             padding:20px 0px;
+             text-align: center;
+         } 
+            #nav ul li:hover {
+                background-color:peru;
+
+            }
+         #nav a {
+             color:black;
+         }
+
+    #middle {
+           }
+        #left {
+           
+            width: 800px;
+            height: 630px;
+            float: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            }
+            
+            .post {
+                background: silver;
+                margin: 20px;
+             
+            }
+                .title{
+                    background:peru ;
+                    padding: 15px  10px;
+                    color: whitesmoke;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .description {
+                    background: rgb(212, 197, 197);
+                    padding: 20px;   
+                }
+
+        #right{ 
+            width: 330px;
+            height: 630px;
+            float: right;
+            padding: 20px;
+                    }
+                    #right h2 {
+                        text-align: center;
+
+                    }
+                    #latest_post_group{
+                        margin: 10px 0px;
+                    }
+                    .latest_post {
+                        background: peru;
+                        padding: 10px 0px;
+                    text-align: center;
+                    color: beige;  
+                    margin: 10px 0px;     
+                    }
+                    #news_letter{
+
+                    }
+                    .news_letter_head{
+                        text-align: center;
+                        font-size: 25px;
+                    }
+                    input[type="text"] {
+                        width: 320px;
+                        height: 30px; 
+                    }
+                    input[type="submit"] {
+                        width: 320px;
+                        margin:10px 0px;
+                        background:brown ;
+                        color:black;
+                        padding: 10px;
+                        border: none;
+                        font-size: 20px ;
+                                           }            
+                    input[type="submit"]:hover {
+                          background:peru;
+                          color: white;
+                    }
+    #footer{
+        background-color: peru;
+        width: 1200px;
+        
+        padding: 20px 0px;
+        color: white;
+         text-align: center;
+    }
